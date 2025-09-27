@@ -1,0 +1,14 @@
+.footer {
+  padding: 2rem 1rem;
+  background: #f8f8f8;
+}
+.contract {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.buttons {
+  margin-top: 1rem;
+}

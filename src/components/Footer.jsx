@@ -1,38 +1,33 @@
 import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="container" id="contact">
-        {/* <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            flexWrap: "wrap",
-            gap: 12,
-          }}
-        >
-          <div>
-            <div style={{ color: "white", fontWeight: 700 }}>
-              Tootsy (Clone)
-            </div>
-            <div style={{ color: "var(--muted)" }}>
-              Prototype landing page • Dummy content
-            </div>
-          </div>
-          <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-            <a href="#">Contact</a>
-          </div>
-        </div> */}
-        <div
-          style={{ marginTop: 18, color: "var(--muted)", textAlign: "center" }}
-        >
-          © {new Date().getFullYear()} Made with ♥ and lots of imagination!.
+      <section className="follow">
+        <h2>Follow Tootsy</h2>
+        <a href="#" className="btn">
+          🐢 Follow @tootsyturtle on X
+        </a>
+      </section>
+
+      <section className="token">
+        <h2>$TOOTSY</h2>
+        <p>
+          The official token representing our beloved Tootsy on the Solana
+          blockchain.
+        </p>
+        <div className="contract">
+          <code>6zHo4KpQj1x9u8vJ1yTya8ce9X123gFa5Xov</code>
+          <button>📋 Copy</button>
         </div>
-      </div>
+        <div className="buttons">
+          <button className="btn">📈 PumpFun</button>
+          <button className="btn">📜 DexScreener</button>
+        </div>
+      </section>
+
+      <p className="copyright">© 2025 Tootsy. Made with ♥ and imagination!</p>
     </footer>
   );
 }
