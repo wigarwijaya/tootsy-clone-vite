@@ -1,6 +1,12 @@
 .gallery {
   padding: 3rem 1rem;
 }
+
+.gallery-text {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));

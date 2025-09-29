@@ -1,12 +1,25 @@
+/* Import Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Register Cute Dino */
+@font-face {
+  font-family: 'Cute Dino';
+  src: url('./assets/fonts/CuteDino.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   margin: 0;
-  font-family: "Arial", sans-serif;
-  background: #fff;
+  font-family: 'Poppins', sans-serif;
+  background: #4da96a;
   color: #111;
   text-align: center;
 }
 
-h2 {
+h1, h2, h3 {
+  font-family: 'Cute Dino', cursive;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -18,4 +31,20 @@ h2 {
   border-radius: 8px;
   cursor: pointer;
   margin: 0.5rem;
+}
+
+/* Dashed outline box */
+.section-outline {
+  border: 2px dashed black;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 0;            /* remove gap */   
+}
+
+.inner-outline {
+  border: 2px dashed black;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 8px; /* optional: make corners rounded */
+  /* background: white;  optional: helps text pop */
 }

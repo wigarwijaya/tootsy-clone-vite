@@ -3,18 +3,18 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="section-outline">
       <section className="follow">
-        <h2>Follow Tootsy</h2>
+        <h2>Follow Pumpfurr</h2>
         <a href="#" className="btn">
-          🐢 Follow @tootsyturtle on X
+          🐢 Follow @pumpfurr on X
         </a>
       </section>
 
       <section className="token">
-        <h2>$TOOTSY</h2>
+        <h2>$PUMPFURR</h2>
         <p>
-          The official token representing our beloved Tootsy on the Solana
+          The official token representing our beloved Pumpfurr on the Solana
           blockchain.
         </p>
         <div className="contract">
@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
       </section>
 
-      <p className="copyright">© 2025 Tootsy. Made with ♥ and imagination!</p>
+      <p className="copyright">© 2025 Pumpfurr. Made with ♥ and imagination!</p>
     </footer>
   );
 }
